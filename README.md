@@ -2,7 +2,7 @@
 This project leverages machine learning to predict the presence of heart disease in patients based on various health parameters. 
 ## Introduction
 Heart disease is one of the leading causes of death worldwide. Early detection of heart disease can significantly improve patient outcomes. This project uses machine learning techniques to analyze patient data and classify whether an individual has heart disease (`1`) or not (`0`).
-### features
+## Features
 The dataset consists of 303 rows and 14 columns. Each row represents a patient, and the columns represent various medical attributes.
 - `age`: Age of the patient.
 - `sex`: Gender (1 = Male, 0 = Female).
