@@ -18,3 +18,28 @@ The dataset consists of 303 rows and 14 columns. Each row represents a patient, 
 - `ca`: Number of major vessels (0-3) colored by fluoroscopy.
 - `thal`: Thalassemia (1-3).
 - `target`: Diagnosis of heart disease (1 = Disease; 0 = No Disease).
+- 
+## 🔍 Data Preprocessing
+The dataset underwent the following preprocessing steps:
+
+- **Handling Missing Values**: Checked and imputed missing data where necessary.
+- **Feature Encoding**: Converted categorical features into numerical format.
+- **Feature Scaling**: Normalized continuous variables for better model performance.
+- **Train-Test Split**: The dataset was split into **training** and **testing** data.
+
+## 🤖 Model Selection and Training
+The following machine learning models were tested:
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Support Vector Machine (SVM)
+- XGBoost
+
+## 📌 Key Findings
+- `cp` (chest pain type), `thalach` (maximum heart rate), and `oldpeak` (ST depression) are the most influential factors in predicting heart disease.
+- Random Forest outperformed other models in terms of accuracy and reliability.
+- The dataset contains some class imbalance, which may impact model performance.
+
+## 📜 Conclusion
+This project successfully applies machine learning techniques to predict heart disease based on patient data. The insights gained can help healthcare professionals in early diagnosis and prevention strategies.
